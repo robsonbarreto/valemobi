@@ -15,9 +15,10 @@ Operacao('consultar');
   <link rel="stylesheet" href="css/bootstrap.min.css" />
   </head>
  <body>
-   <div class="container">
+   <div class="container-fluid">
      <legend>Mercadorias</legend>
-       <table class="table table-striped">
+       <div class="table-responsive">
+       <table class="table table-condensed">
          <tr>
          <td><b>Código</b></td>
          <td><b>Nome</b></td>
@@ -45,6 +46,7 @@ Operacao('consultar');
        </table>
         <!-- botão para incluir um novo registro !-->     
        <a href="inserirmercadoria.php"><button type="button" class="btn btn-primary">Incluir nova mercadoria</button></a>
+   </div>
    </div>
 </body>
 </html>
