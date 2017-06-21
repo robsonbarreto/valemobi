@@ -42,6 +42,7 @@
       function somenteNumeros(campo) {
         v = campo.value
         v = v.replace(/\D/g, "") // permite digitar apenas numero
+        campo.value = v //altera o valor do campo com o valor que sofreu o replace
       }
       
       //formata o campo preço como moeda

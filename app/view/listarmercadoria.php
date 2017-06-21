@@ -43,6 +43,8 @@ Operacao('consultar');
          </tr>
          <?php }?>
        </table>
+        <!-- botão para incluir um novo registro !-->     
+       <a href="inserirmercadoria.php"><button type="button" class="btn btn-primary">Incluir nova mercadoria</button></a>
    </div>
 </body>
 </html>

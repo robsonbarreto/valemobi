@@ -8,7 +8,7 @@ class Acesso {
      
     public function Conexao() {
  
-        $this->cnx = mysqli_connect("localhost", "valemobi", "wv4ycHJYEqMBD64K", "Valemobi");
+        $this->cnx = mysqli_connect("mysql.hostinger.com.br", "u200053898_valem", "1mco959PjcfY", "u200053898_valem");
  
         if (mysqli_connect_errno()) {
             echo "Failed to connect to MySQL: " . mysqli_connect_error();
